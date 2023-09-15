@@ -17,7 +17,7 @@ add_executable(myProject
 
 target_include_directories(myProject
     PUBLIC
-    ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/Header Files
 )
 
 
