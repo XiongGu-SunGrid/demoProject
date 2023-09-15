@@ -15,6 +15,11 @@ add_executable(myProject
     # Add more source files as needed
 )
 
+target_include_directories(myProject
+    PUBLIC
+    ${CMAKE_SOURCE_DIR}/include
+)
+
 
 # Specify any additional libraries or dependencies here
 # For example, if you're using Google Test, you might include:
