@@ -17,13 +17,13 @@ add_executable(demoTest
 
 # Specify any additional libraries or dependencies here
 # For example, if you're using Google Test, you might include:
-target_link_libraries(demoTest gtest gtest_main)
+target_link_libraries(demoTest App gtest gtest_main )
 
 # Link Google Test and your main project to the test executable
-target_link_libraries(demoTest 
-    App  # Link to the main project executable
-
-)
+#target_link_libraries(demoTest 
+#    App  # Link to the main project executable
+#
+#)
 # Set compiler flags if needed
 # For example, to enable C++17:
 # target_compile_features(YourExecutableName PRIVATE cxx_std_17)
