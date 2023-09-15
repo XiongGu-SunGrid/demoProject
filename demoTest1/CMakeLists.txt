@@ -20,7 +20,7 @@ add_executable(demoTest
 target_link_libraries(demoTest gtest gtest_main)
 
 # Link Google Test and your main project to the test executable
-target_link_libraries(demoTest PRIVATE
+target_link_libraries(demoTest 
     App  # Link to the main project executable
 
 )
