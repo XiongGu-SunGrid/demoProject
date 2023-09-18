@@ -34,7 +34,6 @@ jobs:
           cmake ../demoTest1
           make
           cd ../demoTest1
-          cd Debug
           demoTest1.exe
 
   
