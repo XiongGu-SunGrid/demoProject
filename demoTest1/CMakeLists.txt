@@ -27,7 +27,7 @@ add_executable(demoTest1
 
 # Specify any additional libraries or dependencies here
 # For example, if you're using Google Test, you might include:
-target_link_libraries(demoTest1 gtest gtest_main Demo)
+target_link_libraries(demoTest1 gtest gtest_main)
 
 # Link Google Test and your main project to the test executable
 #target_link_libraries(demoTest 
