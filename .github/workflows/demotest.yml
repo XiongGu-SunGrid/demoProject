@@ -33,7 +33,9 @@ jobs:
           cd build
           cmake ../demoTest1
           make
-          ./demoTest1.exe
+          cd ../demoTest1
+          cd Debug
+          demoTest1.exe
 
   
   
