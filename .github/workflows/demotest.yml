@@ -33,7 +33,7 @@ jobs:
           cd build
           cmake ../demoTest1
           make
-          
+          ./demoTest1.exe
 
   
   
