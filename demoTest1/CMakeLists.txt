@@ -7,8 +7,18 @@ project(demoTest1)  # Replace with your project's name
 # Set C++ standard as C++ 17
 set(CMAKE_CXX_STANDARD 17)
 
+include(FetchContent)
+FetchContent_Declare(
+    googletest
+    GIT_REPOSITORY https://github.com/google/googletest.git
+    GIT_TAG v1.14.0  # Adjust the version as needed
+)
+
+# Enable building Google Test as part of your project
+FetchContent_MakeAvailable(googletest)
+
 # Add your source files here
-add_executable(demoTest
+add_executable(demoTest1
     pch.cpp
     test.cpp
     # Add more source files as needed
@@ -17,7 +27,7 @@ add_executable(demoTest
 
 # Specify any additional libraries or dependencies here
 # For example, if you're using Google Test, you might include:
-target_link_libraries(demoTest App gtest gtest_main )
+target_link_libraries(demoTest1 gtest gtest_main)
 
 # Link Google Test and your main project to the test executable
 #target_link_libraries(demoTest 
