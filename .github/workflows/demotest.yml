@@ -36,6 +36,7 @@ jobs:
 
       - name: run the tests
         run:
+          cd build
           ./tst/demoProject_tst
 
 
