@@ -35,7 +35,7 @@ jobs:
           make all
 
       - name: run the tests
-        run:
+        run: |
           cd build
           ./tst/demoProject_tst
 
