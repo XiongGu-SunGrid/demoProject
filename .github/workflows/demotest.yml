@@ -27,12 +27,15 @@ jobs:
           sudo apt-get install libgtest-dev
 
 
-      - name: Build and run tests
+      - name: Build the project
         run: |
           mkdir build
           cd build
           cmake ..
           make all
+
+      - name: run the tests
+        run:
           ./tst/demoProject_tst
 
 
