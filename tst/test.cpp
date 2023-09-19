@@ -5,7 +5,7 @@ using namespace demo;
 namespace testDemo {
 
 	TEST(TestCalculation, TestAddition) {
-	  EXPECT_EQ(5, addition(1,3));
+	  EXPECT_EQ(4, addition(1,3));
 	  EXPECT_TRUE(addition(3,5) == 8);
 	}
 
