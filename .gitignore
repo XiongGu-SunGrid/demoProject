@@ -27,10 +27,10 @@
 *.lib
 
 # Executables
-
+*.exe
 *.out
 *.app
-*.exe
+
 
 # Directories
 **/intermediate
@@ -42,3 +42,4 @@
 **/Release
 **/out
 **/build
+**/lib

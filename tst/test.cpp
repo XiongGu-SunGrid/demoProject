@@ -1,6 +1,5 @@
 #include "pch.h"
-#include "../DemoApp/calculator.h"
-#include "../DemoApp/calculator.cpp"
+#include "calculator.h"
 using namespace demo;
 
 namespace testDemo {
